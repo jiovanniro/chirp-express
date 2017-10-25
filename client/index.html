@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--import your CSS stylesheet here-->
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <!--import JQuery and your own JS file here-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body id ="body">
+        <form>
+            <label for="name">User:</label>
+            <input type="text" id="user" name="name" /><br/>   
+            <label for="chirp">Message:</label>
+            <input type="text" id="chirp-input" name="chirp" /><br/>   
+            
+            <input type="submit" id="send-chirp" value="Send Your Chirp" disabled="disabled" />
+            <!--<input type="submit" id="remove-chirp" value="Remove" disabled="disabled" />-->
+        </form>
+
+        <div id="all-chirps">
+            <h1>Chirps</h1>
+            <hr>
+        </div>
+        
+    </body>
+</html>
